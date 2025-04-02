@@ -1,0 +1,47 @@
+# Compiled object files, libraries, and executables
+*.o
+*.a
+*.elf
+
+# ESP-IDF build output
+/build/
+*.bin
+*.map
+*.hex
+*.log
+*.uf2
+*.csv
+
+# Python virtual environment
+venv/
+.env/
+
+# IDE specific files
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.pyc
+*.pyo
+__pycache__/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs and debugging files
+*.log
+*.trace
+
+# Partition table CSV
+partition_table.csv
+
+# Wi-Fi station example specific files
+sdkconfig
+sdkconfig.old
