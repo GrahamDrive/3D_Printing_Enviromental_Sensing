@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 
 Enviromental_Sensor/managed_components/
+.vscode/
+
