@@ -1,0 +1,2 @@
+source /home/roylasgrey/Documents/GitHub/3D_Printing_Enviromental_Sensing/Enviromental_Sensor/build/bootloader/gdbinit/symbols
+source /home/roylasgrey/Documents/GitHub/3D_Printing_Enviromental_Sensing/Enviromental_Sensor/build/bootloader/gdbinit/connect

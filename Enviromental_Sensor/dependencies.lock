@@ -1,0 +1,61 @@
+dependencies:
+  espressif/esp_lvgl_port:
+    component_hash: bb938deffba7d80b2ce582a796c053681b0439e0a7033666688e0f1f5b921125
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    - name: lvgl/lvgl
+      registry_url: https://components.espressif.com
+      require: public
+      version: '>=8,<10'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.5.0
+  idf:
+    source:
+      type: idf
+    version: 5.5.0
+  k0i05/esp_ccs811:
+    component_hash: 53646c4fb924dbf186106c06b7ef6b0d93a3983845f2a74dec485deb78181593
+    dependencies:
+    - name: idf
+      require: private
+      version: '>5.3.0'
+    - name: k0i05/esp_type_utils
+      registry_url: https://components.espressif.com
+      require: private
+      version: '>=0.0.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.2.5
+  k0i05/esp_type_utils:
+    component_hash: dfe2feb2117ee060c085ec166b56cfd9d66cef4019216bf8722e45e43a3b562f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>5.3.0'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    targets:
+    - esp32
+    - esp32s3
+    version: 1.2.5
+  lvgl/lvgl:
+    component_hash: 096c69af22eaf8a2b721e3913da91918c5e6bf1a762a113ec01f401aa61337a0
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 9.2.2
+direct_dependencies:
+- espressif/esp_lvgl_port
+- idf
+- k0i05/esp_ccs811
+- lvgl/lvgl
+manifest_hash: 314b83f1f62ce07c0d98b5fad1eb8dc442d04d70bfd540294b09a6f92aa0f00a
+target: esp32
+version: 2.0.0
